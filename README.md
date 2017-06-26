@@ -6,18 +6,16 @@ Please do the following steps:
 2) Go to Bluemix catalog and create a Watson Conversation service;
 3) Create a conversation as the guidance -->> 
 4) Back to Bluemix catalog and create Continuous Delivery service and follwoing steps -->>
-5) Change the file config/bot.js with your credentials of Watson Conversation and WOrkspace id create, in lines 26, 27 and 32, as the following:
+5) Change the file config/bot.js with your credentials of Watson Conversation and Workspace id create, in lines 26, 27 and 32, as the following:
     username = "xxxx-xxxx-xxxxxx-xxxx";
     password = "xxxxxxxx";
     conversationWorkspace = "xxx-xxxxx-xxxxx-xxxxx-xxxx";
 
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/sergiogama/ibm-dbg-chatbot)
-
 ## Para executar o app localmente
 
 1. [Instalar Node.js][]
-+ cd no diret'roio raiz do projeto
++ cd no diretóroio raiz do projeto
 + Execute `npm install` para instalar as dependências do app
 + Altere o aquivo config/bot.js e coloque as credenciais e workspace_id do conversation nas lilnhas à seguir:
     
